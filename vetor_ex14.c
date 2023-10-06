@@ -3,7 +3,7 @@
 int main(void)
 {
 
-    int a[3][2], transposta[2][3];
+    int a[3][2], transpostaa[2][3];
     int linha, coluna, n1; 
     
 while (1){
@@ -42,7 +42,7 @@ while (1){
         {
             for (coluna = 0; coluna < 2; coluna++)
             {
-            transposta[coluna][linha] = a[linha][coluna]; 
+            transpostaa[coluna][linha] = a[linha][coluna]; 
             }
         }
             printf("Matriz Transposta (2x3):\n");
@@ -50,7 +50,7 @@ while (1){
         for (int linha = 0; linha < 2; linha++) 
             {
                 for (int coluna = 0; coluna < 3; coluna++) {
-                printf("%d ", transposta[linha][coluna]);
+                printf("%d ", transpostaa[linha][coluna]);
             }
             }
     break;
